@@ -1,0 +1,75 @@
+//Default Theme
+$primary: #1976D2;
+$secondary: #424242;
+$accent: #F9F9F9;
+$error: #FF5252;
+$info: #2196F3;
+$success: #4CAF50;
+$warning: #FFC107;
+
+$font-roboto: Roboto;
+
+
+html, body {
+    height:100%;
+    margin: 0px;
+    font-family: $font-roboto;
+}
+
+.app-container {
+    height:100%;
+}
+
+.view-container {
+    background-color: $accent;
+    // height:100vh;
+    padding:10px 5px;
+}
+
+*{
+    line-height: 1.2;
+    margin: 0;
+}
+
+html {
+    color: #888;
+    display: table;
+    font-family: sans-serif;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 2em auto;
+}
+
+h1 {
+    color: #555;
+    font-size: 3em;
+    font-weight: 400;
+    margin:10px;
+}
+
+p {
+    margin: 0 auto;
+    width: 280px;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 280px) {
+
+body,
+p {
+    width: 95%;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 0.3em;
+}
+
+}
+

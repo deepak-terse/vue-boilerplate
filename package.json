@@ -1,0 +1,33 @@
+{
+	"name": "vue-boilerplate",
+	"version": "1.0.0",
+	"description": "A simple, minimalistic vue template to build single page applications",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vue serve src/main.js",
+		"prod": "vue build src/main.js",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/deepak-terse/vue-boilerplate.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/deepak-terse/vue-boilerplate/issues"
+	},
+	"homepage": "https://github.com/deepak-terse/vue-boilerplate#readme",
+	"devDependencies": {
+		"css-loader": "^3.5.3",
+		"node-sass": "^4.14.1",
+		"sass-loader": "^8.0.2",
+		"vue-loader": "^15.9.2",
+		"vue-template-compiler": "^2.6.11",
+		"webpack": "^4.43.0"
+	},
+	"dependencies": {
+		"vue": "^2.6.11",
+		"vue-router": "^3.1.6"
+	}
+}
